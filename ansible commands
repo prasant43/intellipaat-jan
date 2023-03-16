@@ -1,0 +1,32 @@
+M
+
+    1  sudo apt install software-properties-common
+    2  $ sudo add-apt-repository --yes --update ppa:ansible/ansible
+    3  sudo apt update
+    4  sudo apt install software-properties-common
+    5  sudo add-apt-repository --yes --update ppa:ansible/ansible
+    6  sudo apt install ansible
+    7  ansible --version
+    8  ssh-keygen
+    9  ls
+   10  cd .ssh/
+   11  ls
+   12  cat authorized_keys
+   13  cat id_rsa.pub
+   14  cd  /etc/ansible/
+   15  ls
+   16  nano hosts
+   17  sudo nano hosts
+   18  ansible -m ping all
+   19  ansible -m ping test
+   20  ansible -m ping production
+   21  ansible -m ping all
+   22  clear
+   23  ansible -m ping all
+   24  cat hosts
+   25  sudo nano playbook.yml
+   26  ansible-playbook playbook.yml --syntax-check
+   27  ansible-playbook playbook.yml --check
+   28  cat playbook.yml
+   29  ansible-playbook playbook.yml
+
